@@ -4,6 +4,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 style="text-align: center; color:brown"><u>Rock Paper Scissors</h1></u>
+
+        <h1 style="text-align: center; color:rgb(204, 35, 35)"><u>Rock Paper Scissors</h1></u>
+        <h1 style="text-align:center; color:rgb(47, 255, 0)">Human vs Computer</h1>
+        <div class="score">
+            <div>
+                <h2>Human</h2>
+                <p id="human-score">
+                    0
+                </p>
+            </div>
+            <div>
+                <h2>Computer</h2>
+                <p id="computer-score">
+                    0
+                </p>
+            </div>
+        </div>
+        <h2 id="result">Choose your weapon!</h2>
+        <div class="buttons">
+            <button onclick="play('rock')">Rock</button>
+            <button onclick="play('paper')">Paper</button>
+            <button onclick="play('scissors')">Scissors</button>
+        </div>
+        <p id="choices"></p>
+        <button onclick="resetGame()">Play Again</button>
+        <script src="script.js"></script>
+
     </body>
 </html>
