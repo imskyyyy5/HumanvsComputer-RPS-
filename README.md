@@ -1,11 +1,23 @@
-You all have played rock paper scissors right.
-So I decided to make a human vs computer rock paper scissors game
-I used HTML CSS AND JS to make the game.
-In this game you have 3 options/buttons to choose rocks paper and scissor and computer will choose a random choice and 
-according to your choice and the computers choices the win will be declared and the score will also be counted automatically.
+Rock Paper Scissors — Human vs Computer
 
-It is just made for fun of people.
-Netlify is used for hosting of this.
-You can find this game or play in the given link below:
+A simple Rock Paper Scissors game made with HTML, CSS, and JavaScript.
 
-https://unrivaled-halva-34cd93.netlify.app/
+I made this project to practice JavaScript and understand how game logic works in a browser. The player plays against a computer that randomly chooses Rock, Paper, or Scissors.
+
+How to Play
+Open the website.
+Choose Rock, Paper, or Scissors.
+The computer will randomly choose one too.
+The winner is decided automatically.
+The scores are updated after every round.
+Use Play Again to reset the scores.
+Built With
+HTML
+CSS
+JavaScript
+Features
+Human vs Computer gameplay
+Random computer choices
+Score tracking
+Win, lose, and draw detection
+Reset button
